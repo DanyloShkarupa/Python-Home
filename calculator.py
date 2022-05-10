@@ -1,0 +1,18 @@
+first_number = float(input("First number: "))
+second_number = float(input("Second number: "))
+
+addition = str(first_number + second_number)
+subtraction = str(first_number - second_number)
+division = str(first_number / second_number)
+multiplication = str(first_number * second_number)
+exponent = str(first_number ** second_number)
+modulus = str(first_number % second_number)
+floor_division = str(first_number // second_number)
+
+print("addition: " + addition)
+print("subtraction: " + subtraction)
+print("division: " + division)
+print("multiplication: " + multiplication)
+print("exponent: " + exponent)
+print("modulus: " + modulus)
+print("floor_division: " + floor_division)
