@@ -13,7 +13,7 @@ prices = {
 
 
 def total_price(x, y):
-    return sum([[q[1] for q in x.items()][i] * [p[1] for p in y.items()][i] for i in range(4)])
+    return sum([[q[1] for q in x.items()][i] * [p[1] for p in y.items()][i] for i in range(len(stock)])
 
 
 print(total_price(stock, prices))
